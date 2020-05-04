@@ -1,0 +1,54 @@
+html {
+  font-family: 'Montserrat', sans-serif;
+  color: #342D33;
+}
+
+body {
+  letter-spacing: .05em;
+}
+
+
+h1 {
+    color: #435675;
+}
+
+
+p {
+    line-height: 1.75;
+}
+
+li {
+    line-height: 1.75;
+}
+
+a {
+    color: #628cc4;
+    text-decoration: none;
+}
+
+svg {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+svg:hover {
+  opacity: 1;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 1em;
+}
+
+.fa {
+  font-size: 2.7em;
+  text-decoration: none;
+  opacity: 0.6;
+  margin-right: 0.4em;
+  color: #000000
+}
+
+.fa:hover {
+  opacity: 1;
+}
