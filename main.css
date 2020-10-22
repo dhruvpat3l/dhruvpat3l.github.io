@@ -1,7 +1,7 @@
 html {
   font-family: 'Montserrat', sans-serif;
-  color: #342D33;
-  background: #dae3eb;
+  color: #ffffff;
+  background: #333333;
 }
 
 body {
@@ -10,7 +10,7 @@ body {
 
 
 h1 {
-    color: #435675;
+    color: #d6eeff;
 }
 
 
@@ -47,9 +47,43 @@ svg:hover {
   text-decoration: none;
   opacity: 0.6;
   margin-right: 0.4em;
-  color: #000000
+  color: #ffffff
 }
 
 .fa:hover {
   opacity: 1;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted white;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #969696;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 110%;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent #969696 transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
